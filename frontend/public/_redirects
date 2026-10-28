@@ -1,0 +1,4 @@
+# Replace YOUR-BACKEND-URL with your hosted backend (e.g. price-checker-api.onrender.com)
+/api/*      https://YOUR-BACKEND-URL/api/:splat      200
+/uploads/*  https://YOUR-BACKEND-URL/uploads/:splat  200
+/*          /index.html                              200

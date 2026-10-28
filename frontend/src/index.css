@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@layer components {
+  .btn { @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md bg-slate-800 text-white text-sm font-medium hover:bg-slate-700 disabled:opacity-50 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-500; }
+  .btn-ghost { @apply inline-flex items-center justify-center gap-2 px-3 py-2 rounded-md border border-slate-300 bg-white text-slate-700 text-sm hover:bg-slate-100 disabled:opacity-40 transition; }
+  .inp { @apply w-full px-3 py-2 border border-slate-300 rounded-md text-sm bg-white focus:outline-none focus:ring-2 focus:ring-slate-400; }
+}
+.doc table { border-collapse: collapse; width: 100%; margin: .25rem 0; }
+.doc td, .doc th { border: 1px solid #cbd5e1; padding: 4px 8px; text-align: left; vertical-align: top; }
+.doc img { max-width: 100%; height: auto; }
+.doc p { margin: .25rem 0; }
+.doc ul { list-style: disc; margin-left: 1.25rem; } .doc ol { list-style: decimal; margin-left: 1.25rem; }
+.doc h1, .doc h2, .doc h3 { font-weight: 600; margin: .5rem 0; }
